@@ -3,6 +3,8 @@
     customLayerData = {
         string lightspeed_game_name = "Deus Ex"
         string lightspeed_layer_type = "replacement"
+        dictionary lightspeed_mod_dependencies = {
+        }
         string lightspeed_mod_name = "DeusEx"
         string lightspeed_mod_version = "1.0.0"
     }

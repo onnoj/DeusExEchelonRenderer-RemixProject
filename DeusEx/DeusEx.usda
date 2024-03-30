@@ -1,6 +1,32 @@
 #usda 1.0
 (
     customLayerData = {
+        dictionary SelectionHistoryList = {
+            string "0" = "/RootNode/instances/inst_7839A83D8BE413C9_0/mesh"
+            string "1" = "/RootNode/instances/inst_06052E92A6B73586_0/mesh"
+            string "2" = "/RootNode/instances/inst_7839A83D8BE413C9_0/mesh"
+            string "3" = "/RootNode/instances/inst_06052E92A6B73586_0/mesh"
+            string "4" = "/RootNode/instances/inst_7839A83D8BE413C9_0/mesh"
+        }
+        dictionary cameraSettings = {
+            dictionary Front = {
+                double3 position = (83333.33260897134, 0, 0)
+                double radius = 500
+            }
+            dictionary Perspective = {
+                double3 position = (4760.5693359375, 10430.811523437496, -216.24996948242182)
+                double3 target = (-6528.680640772116, 9684.6969933858, -2089.1518784069385)
+            }
+            dictionary Right = {
+                double3 position = (0, -83333.33260897134, 0)
+                double radius = 500
+            }
+            dictionary Top = {
+                double3 position = (0, 0, 83333.33260897134)
+                double radius = 500
+            }
+            string boundCamera = "/OmniverseKit_Persp"
+        }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
             string authoring_layer = "./mod.usda"
@@ -8,13 +34,17 @@
                 bool "./deps/captures/latest.usd" = 1
             }
         }
+        dictionary renderSettings = {
+        }
     }
+    endTimeCode = 40
     metersPerUnit = 0.006000000052154064
+    startTimeCode = 0
     subLayers = [
         @./mod.usda@,
         @./deps/captures/latest.usd@
     ]
-    timeCodesPerSecond = 24
+    timeCodesPerSecond = 60
     upAxis = "Z"
 )
 
