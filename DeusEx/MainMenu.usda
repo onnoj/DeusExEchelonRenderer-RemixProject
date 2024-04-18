@@ -254,6 +254,22 @@ This parameter is unused.
             over "Shader"
             {
                 uniform uint filter_mode = 1
+                color3f inputs:diffuse_color_constant = (0.2966752, 0.29667222, 0.29667222) (
+                    customData = {
+                        float3 default = (0.2, 0.2, 0.2)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo Color"
+                    doc = """The base albedo color.  (Used if no texture is specified)
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
                 asset inputs:diffuse_texture = @@ (
                     customData = {
                         asset default = @@
@@ -291,7 +307,7 @@ This parameter is unused.
                     hidden = false
                     renderType = "texture_2d"
                 )
-                float inputs:reflection_roughness_constant = 0.1 (
+                float inputs:reflection_roughness_constant = 0.05 (
                     customData = {
                         float default = 0.5
                         dictionary range = {

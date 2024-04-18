@@ -2,50 +2,64 @@
 (
     customLayerData = {
         dictionary SelectionHistoryList = {
-            string "0" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "1" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
-            string "10" = "/RootNode/instances/inst_71AA0B2EF76690E1_0/mesh"
-            string "11" = "/RootNode/instances/inst_02A2016F4D4E57D7_0/mesh"
-            string "12" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "13" = "/RootNode/instances/inst_710416075E2A0CF4_35/mesh"
-            string "14" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "15" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "0" = "/RootNode/instances/inst_50369DF8F602545D_0/mesh"
+            string "1" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
+            string "10" = "/RootNode/instances/inst_710416075E2A0CF4_35/mesh"
+            string "11" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "12" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "13" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "14" = "/RootNode/instances/inst_710416075E2A0CF4_24/mesh"
+            string "15" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
             string "16" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "17" = "/RootNode/instances/inst_710416075E2A0CF4_24/mesh"
-            string "18" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
-            string "19" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "2" = "/RootNode/instances/inst_3FEF06F17377A0D2_0/mesh"
-            string "20" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
-            string "21" = "/RootNode/instances/inst_710416075E2A0CF4_1/mesh"
-            string "22" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
-            string "23" = "/RootNode/instances/inst_710416075E2A0CF4_7/mesh"
-            string "24" = "/RootNode/instances/inst_710416075E2A0CF4_8/mesh"
-            string "25" = "/RootNode/instances/inst_710416075E2A0CF4_9/mesh"
-            string "26" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
-            string "27" = "/RootNode/instances/inst_710416075E2A0CF4_2/mesh"
-            string "28" = "/RootNode/instances/inst_710416075E2A0CF4_26/mesh"
-            string "29" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "3" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "30" = "/RootNode/instances/inst_710416075E2A0CF4_33/mesh"
+            string "17" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "18" = "/RootNode/instances/inst_710416075E2A0CF4_1/mesh"
+            string "19" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "2" = "/RootNode/instances/inst_5D3153D6BEFCA849_0/mesh"
+            string "20" = "/RootNode/instances/inst_710416075E2A0CF4_7/mesh"
+            string "21" = "/RootNode/instances/inst_710416075E2A0CF4_8/mesh"
+            string "22" = "/RootNode/instances/inst_710416075E2A0CF4_9/mesh"
+            string "23" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "24" = "/RootNode/instances/inst_710416075E2A0CF4_2/mesh"
+            string "25" = "/RootNode/instances/inst_710416075E2A0CF4_26/mesh"
+            string "26" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "27" = "/RootNode/instances/inst_710416075E2A0CF4_33/mesh"
+            string "28" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "29" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
+            string "3" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
+            string "30" = ""
             string "31" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
-            string "32" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
-            string "33" = "/RootNode/instances/inst_5D3153D6BEFCA849_0/mesh"
-            string "34" = "/RootNode/instances/inst_50369DF8F602545D_0/mesh"
-            string "35" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "36" = "/RootNode/instances/inst_71AA0B2EF76690E1_0/mesh"
-            string "37" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "38" = "/RootNode/instances/inst_CA6ECA55F271C502_0/mesh"
-            string "39" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "4" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
-            string "40" = "/RootNode/instances/inst_71AA0B2EF76690E1_0/mesh"
-            string "41" = "/RootNode/instances/inst_CA6ECA55F271C502_0/mesh"
-            string "42" = "/RootNode/instances/inst_02A2016F4D4E57D7_0/mesh"
-            string "43" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "5" = "/RootNode/instances/inst_CA6ECA55F271C502_0/mesh"
-            string "6" = "/RootNode/instances/inst_71AA0B2EF76690E1_0/mesh"
-            string "7" = "/RootNode/instances/inst_CA6ECA55F271C502_0/mesh"
-            string "8" = "/RootNode/instances/inst_74C20F97F99AD7CA_0/mesh"
-            string "9" = "/RootNode/instances/inst_CA6ECA55F271C502_0/mesh"
+            string "32" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "33" = "/RootNode/instances/inst_3FEF06F17377A0D2_0/mesh"
+            string "34" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "35" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "36" = ""
+            string "37" = "/RootNode/instances/inst_710416075E2A0CF4_35/mesh"
+            string "38" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "39" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "4" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "40" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "41" = "/RootNode/instances/inst_710416075E2A0CF4_24/mesh"
+            string "42" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
+            string "43" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "44" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "45" = "/RootNode/instances/inst_710416075E2A0CF4_1/mesh"
+            string "46" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "47" = "/RootNode/instances/inst_710416075E2A0CF4_7/mesh"
+            string "48" = "/RootNode/instances/inst_710416075E2A0CF4_8/mesh"
+            string "49" = "/RootNode/instances/inst_710416075E2A0CF4_9/mesh"
+            string "5" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "50" = "/RootNode/instances/inst_710416075E2A0CF4_0/mesh"
+            string "51" = "/RootNode/instances/inst_710416075E2A0CF4_2/mesh"
+            string "52" = "/RootNode/instances/inst_710416075E2A0CF4_26/mesh"
+            string "53" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "54" = "/RootNode/instances/inst_710416075E2A0CF4_33/mesh"
+            string "55" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "56" = "/RootNode/instances/inst_86C7D3B4342A0E63_0/mesh"
+            string "57" = ""
+            string "6" = "/RootNode/instances/inst_3FEF06F17377A0D2_0/mesh"
+            string "7" = "/RootNode/instances/inst_310CA77364C1DA1B_0/mesh"
+            string "8" = "/RootNode/instances/inst_E45A3287F4C2F9AA_0/mesh"
+            string "9" = ""
         }
         dictionary cameraSettings = {
             dictionary Front = {
@@ -54,7 +68,7 @@
             }
             dictionary Perspective = {
                 double3 position = (86.4240571966941, 366.331170760168, 30.018025297667048)
-                double3 target = (-231.24814614418403, -425.05062641336156, -120.97608825298242)
+                double3 target = (-231.2481461441838, -425.05062641336156, -120.97608825298242)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -64,13 +78,13 @@
                 double3 position = (0, 0, 500)
                 double radius = 500
             }
-            string boundCamera = "/OmniverseKit_Persp"
+            string boundCamera = "/RootNode/cameras/Camera"
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
             string authoring_layer = "./MainMenu.usda"
             dictionary locked = {
-                bool "./deps/captures/latest3.usd" = 1
+                bool "./deps/captures/latest.usd" = 1
             }
         }
         dictionary renderSettings = {
@@ -81,7 +95,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/latest3.usd@
+        @./deps/captures/latest.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
