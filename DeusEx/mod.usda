@@ -6,60 +6,10 @@
         string lightspeed_mod_name = "DeusEx"
         string lightspeed_mod_version = "1.0.0"
     }
+    subLayers = [
+        @./MainMenu.usda@
+    ]
     timeCodesPerSecond = 24
     upAxis = "Z"
 )
-
-over "OmniverseKit_Persp"
-{
-    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -11467.851302185863)
-}
-
-over "RootNode"
-{
-    over "Looks"
-    {
-        over "mat_E49FA36DD6DE76DA"
-        {
-            over "Shader"
-            {
-                asset inputs:diffuse_texture = @./assets/E49FA36DD6DE76DA_diffuse.a.rtex.dds@ (
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Base Material"
-                    displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
-"""
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:normalmap_texture = @./assets/E49FA36DD6DE76DA_normal_dx_OTH_Normal.n.rtex.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Base Material"
-                    displayName = "Normal Map"
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-                asset inputs:reflectionroughness_texture = @./assets/E49FA36DD6DE76DA_roughness.r.rtex.dds@ (
-                    colorSpace = "auto"
-                    customData = {
-                        asset default = @@
-                    }
-                    displayGroup = "Base Material"
-                    displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
-"""
-                    hidden = false
-                    renderType = "texture_2d"
-                )
-            }
-        }
-    }
-}
 
