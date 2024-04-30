@@ -12,7 +12,7 @@ over "RootNode"
             float focalLength = 15
             bool omni:kit:cameraLock = 0
             custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -1342.9818961507226)
-            matrix4d xformOp:transform = ( (-0.9566096934130357, 0.23259332862467585, 0.17549426756306583, 0), (0.18624620462932026, 0.024922222502956767, 0.9821869649341792, 0), (0.22407642832163785, 0.9722547126678143, -0.06716046430618447, 0), (-2524.0036095753617, 224.82875828498283, 6.414309577693107, 1) )
+            matrix4d xformOp:transform = ( (-0.6019958254914851, 0.7789754733900699, 0.17549426756304792, 0), (0.06340042480706677, -0.1724567958674354, 0.9829745875114552, 0), (0.7959782737142393, 0.6028730093608474, 0.05443089526258213, 0), (1175.4132617920807, -1813.8305957220807, -286.2363654437848, 1) )
         }
     }
 
@@ -385,6 +385,129 @@ This parameter is unused.
                     displayGroup = "Alpha Blending"
                     displayName = "Use Legacy Alpha State"
                     doc = """Indicates if the alpha state should be driven by the game itself, or overridden by this material.
+
+"""
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_B1A9785262EC9A0F"
+        {
+            over "Shader"
+            {
+                int inputs:alpha_test_type = 1 (
+                    customData = {
+                        int default = 0
+                    }
+                    displayGroup = "Alpha Blending"
+                    displayName = "Alpha Test Type"
+                    doc = """The alpha state alpha test type to use.
+This parameter is unused.
+"""
+                    hidden = false
+                    renderType = "AlphaTestType"
+                    sdrMetadata = {
+                        string __SDR__enum_value = "Always"
+                        string options = "Always:0|Never:1|Less:2|Equal:3|LessOrEqual:4|Greater:5|NotEqual:6|GreaterOrEqual:7"
+                    }
+                )
+                bool inputs:blend_enabled = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Alpha Blending"
+                    displayName = "Blend Enabled"
+                    doc = """Indicates if alpha state blending should be enabled.
+
+"""
+                    hidden = false
+                )
+                bool inputs:inverted_blend = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Alpha Blending"
+                    displayName = "Inverted Blend"
+                    doc = """Indicates if an inverted blend type should be used.
+This parameter is unused.
+"""
+                    hidden = false
+                )
+                float inputs:metallic_constant = 1 (
+                    customData = {
+                        float default = 0
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Metallic Amount"
+                    doc = """How metallic is this material, 0 for not at all, 1 for fully metallic. (Used if no texture is specified).
+
+"""
+                    hidden = false
+                )
+                float inputs:reflection_roughness_constant = 0 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Amount"
+                    doc = """Higher roughness values lead to more blurry reflections, use 0 for perfectly smooth.  (Used if no texture is specified).
+
+"""
+                    hidden = false
+                )
+                bool inputs:use_legacy_alpha_state = 0 (
+                    customData = {
+                        bool default = 1
+                    }
+                    displayGroup = "Alpha Blending"
+                    displayName = "Use Legacy Alpha State"
+                    doc = """Indicates if the alpha state should be driven by the game itself, or overridden by this material.
+
+"""
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_EB9CFE2E02DC5EC6"
+        {
+            over "Shader"
+            {
+                float inputs:metallic_constant = 1 (
+                    customData = {
+                        float default = 0
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Metallic Amount"
+                    doc = """How metallic is this material, 0 for not at all, 1 for fully metallic. (Used if no texture is specified).
+
+"""
+                    hidden = false
+                )
+                float inputs:reflection_roughness_constant = 0 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Amount"
+                    doc = """Higher roughness values lead to more blurry reflections, use 0 for perfectly smooth.  (Used if no texture is specified).
 
 """
                     hidden = false
