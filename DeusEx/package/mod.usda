@@ -9,9 +9,21 @@
         string lightspeed_mod_version = "1.0.0"
     }
     subLayers = [
-        @./MainMenu.usda@
+        @./MainMenu.usda@,
+        @./Glass.usda@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
 )
+
+over "RootNode"
+{
+    over "cameras"
+    {
+        over "Camera"
+        {
+            matrix4d xformOp:transform = ( (0.8746356282763752, 0.451900741094875, 0.17549426756300324, 0), (-0.234258551802584, 0.07704448355952938, 0.9691166485311832, 0), (0.42442366646658436, -0.8887349817301551, 0.17324746345071082, 0), (1175.4132617920807, -1813.8305957220807, -286.2363654437848, 1) )
+        }
+    }
+}
 

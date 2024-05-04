@@ -11,8 +11,8 @@ over "RootNode"
         {
             float focalLength = 15
             bool omni:kit:cameraLock = 0
-            custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -1342.9818961507226)
-            matrix4d xformOp:transform = ( (-0.6019958254914851, 0.7789754733900699, 0.17549426756304792, 0), (0.06340042480706677, -0.1724567958674354, 0.9829745875114552, 0), (0.7959782737142393, 0.6028730093608474, 0.05443089526258213, 0), (1175.4132617920807, -1813.8305957220807, -286.2363654437848, 1) )
+            custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -440.05245194973185)
+            matrix4d xformOp:transform = ( (0.8746356282763752, 0.451900741094875, 0.17549426756300324, 0), (-0.234258551802584, 0.07704448355952938, 0.9691166485311832, 0), (0.42442366646658436, -0.8887349817301551, 0.17324746345071082, 0), (792.1886365236663, -1011.3656126265053, -442.6666013265644, 1) )
         }
     }
 
@@ -471,43 +471,6 @@ This parameter is unused.
                     displayGroup = "Alpha Blending"
                     displayName = "Use Legacy Alpha State"
                     doc = """Indicates if the alpha state should be driven by the game itself, or overridden by this material.
-
-"""
-                    hidden = false
-                )
-            }
-        }
-
-        over "mat_EB9CFE2E02DC5EC6"
-        {
-            over "Shader"
-            {
-                float inputs:metallic_constant = 1 (
-                    customData = {
-                        float default = 0
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Base Material"
-                    displayName = "Metallic Amount"
-                    doc = """How metallic is this material, 0 for not at all, 1 for fully metallic. (Used if no texture is specified).
-
-"""
-                    hidden = false
-                )
-                float inputs:reflection_roughness_constant = 0 (
-                    customData = {
-                        float default = 0.5
-                        dictionary range = {
-                            float max = 1
-                            float min = 0
-                        }
-                    }
-                    displayGroup = "Base Material"
-                    displayName = "Roughness Amount"
-                    doc = """Higher roughness values lead to more blurry reflections, use 0 for perfectly smooth.  (Used if no texture is specified).
 
 """
                     hidden = false
